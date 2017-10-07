@@ -67,6 +67,7 @@ left: 550px;
 }
 	
 .dropdown{
+
     position: relative;
     display: inline-block;
 }
@@ -100,9 +101,12 @@ left: 550px;
 }
 
 .heading{
-
+	font-family: 'Stalinist One', cursive;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+	font-size: 20px;
 	position: relative;
-	left: 300px;
+	left: 250px;
 	color: white;
 }
 .heading2{
@@ -183,6 +187,7 @@ left: 550px;
 
 }
 ul{
+	font-family: 'Stalinist One', cursive;
 	float: right;
 
 }
@@ -206,7 +211,8 @@ h1{
 }
 
 h2{
-
+	font-family: 'Arvo', serif;
+	letter-spacing: 3px;
 	width: 700px;
 }
 
@@ -224,7 +230,8 @@ h5{
 }
 
 p{
-	
+font-family: 'Libre Franklin', sans-serif;
+word-spacing: 2px;
 width: 700px;
 text-align: center; 
 }
