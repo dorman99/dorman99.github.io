@@ -22,13 +22,13 @@ z-index: +1;
 
 footer{
 
-	height: 90px;
-	border: blue solid 1px;
+	height: 30px;
 	background-color: white;
 	width: 100%;
 
-	position: absolute;
-	top: 1000px;
+
+	position: relative;
+	top: 200px;
 	
 }
 
@@ -162,15 +162,14 @@ left: 550px;
 #insta{
 
 	position: relative;
-	top: 5px;
+	bottom: 21px;
 	float:left;
 }
 #justiffa{
 
 	width: 70px;
 	position:relative;
-	top: 20px;	
-		
+	bottom: 10px;	
 }
 
 #video1{
@@ -212,11 +211,11 @@ h2{
 h5{
 	position: relative;
 	
-	width: 170px;
+	width: 100%;
 	color: black;
 	left: 1170px;
 	
-	top: 35px;
+	top: 10px;
 	margin-bottom: 0;
 
 }
