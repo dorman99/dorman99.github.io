@@ -212,10 +212,11 @@ h2{
 
 h5{
 	position: relative;
+
 	
-	width: 100%;
+	width: 45px;
 	color: black;
-	left: 1170px;
+	left: 1300px;
 	
 	top: 20px;
 	margin-bottom: 0;
