@@ -239,4 +239,245 @@ font-family: 'Libre Franklin', sans-serif;
 word-spacing: 2px;
 width: 700px;
 text-align: center; 
+html body {
+
+	margin: 0;
+	padding: 0;
+}
+
+*{
+
+	box-sizing: border;
+}
+
+
+
+
+header{
+top: 0;
+
+position: fixed;
+background-color: maroon;
+width: 100%;
+z-index: +1;
+}
+
+footer{
+
+	height: 40px;
+	background-color: white;
+	width: 100%;
+	position: relative;
+	top: 200px;
+	bottom: 0px;
+	
+}
+
+
+body{
+	background-image: url("img/maroon.png") ;	 
+}
+
+nav{
+	color: white;
+
+}
+
+#intro{
+
+	position: relative;
+	top: 100px;
+}
+
+#intro2{
+
+	position: relative;
+	top: 100px;	
+}
+
+#iffa1{
+
+	border-radius: 100px;
+width: 200px;
+position: relative;
+left: 550px;	
+}
+.bar {
+	margin-top: 5px;
+	position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+	
+.dropdown{
+
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+
+	display: none;
+    position: absolute;
+    background-color: maroon;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover #bar {
+    background-color: #3e8e41;
+}
+
+.heading{
+	font-family: 'Stalinist One', cursive;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+	font-size: 20px;
+	position: relative;
+	left: 250px;
+	color: white;
+}
+.heading2{
+
+	position: relative;
+	top: 30px;
+	left: 600px;
+	color: white;
+}
+#headmv{
+
+	position: relative;
+	top: 30px;
+	left: 600px;
+	color: white;
+}
+
+#penjelasan{
+	color: white;
+	font-size: 14px;
+	position: relative;
+	left: 300px;
+
+
+}
+
+#foto1{
+	border-radius: 30px;
+	padding: 10px;
+	width: 350px;
+}
+
+#foto2{
+
+	border-radius: 30px;
+	padding: 10px;
+	width: 350px;
+}
+#foto3{
+	border-radius: 30px;
+	width: 350px;
+	padding: 10px;
+}
+.fotos{
+
+	width: 1150px;
+	
+	position: relative;
+	padding: 0;
+	top: 30px;
+	left: 100px;
+
+	bottom: 30px;
+	display: inline-block;
+
+}
+
+
+
+#insta{
+
+	
+	
+	position: relative;
+	bottom: 18px;
+	float:left;
+}
+#justiffa{
+	
+	width: 70px;
+	position:relative;
+			
+}
+
+#video1{
+
+	position: relative;
+	top: 50px;
+	left: 435px;
+	width: 420px;
+
+}
+ul{
+	font-family: 'Stalinist One', cursive;
+	float: right;
+
+}
+
+
+ul a{
+
+	text-decoration: none;
+	color: white;
+}
+
+
+
+li{
+	padding: 10px 20px;
+}
+
+h1{
+
+	width: 1000px;
+}
+
+h2{
+	font-family: 'Arvo', serif;
+	letter-spacing: 3px;
+	width: 700px;
+}
+
+h5{
+	position: relative;
+
+	
+	width: 45px;
+	color: black;
+	left: 1300px;
+	
+	top: 20px;
+	margin-bottom: 0;
+
+}
+
+p{
+font-family: 'Libre Franklin', sans-serif;
+word-spacing: 2px;
+width: 700px;
+text-align: center; 
 }
