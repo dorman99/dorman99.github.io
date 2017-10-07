@@ -20,6 +20,16 @@ width: 100%;
 z-index: +1;
 }
 
+footer{
+
+	height: 60px;
+	width: 100%;
+	background-color: white;
+	position: relative;
+	top: 70px;
+	
+}
+
 body{
 	background-image: url("img/maroon.png") ;	 
 }
@@ -144,16 +154,7 @@ left: 550px;
 
 }
 
-footer{
 
-	height: 60px;
-	width: 100%
-	background-color: white;
-
-	position: relative;
-	top: 70px;
-	
-}
 
 
 #insta{
