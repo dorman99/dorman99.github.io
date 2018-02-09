@@ -3,10 +3,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
 	<title> INDONESIAN FLAG FOOTBALL ASSOCIATION OFFICIAL PAGE! </title>
-	<link rel="shortcut icon" href="img/iffa full.png">
-	<link href="https://fonts.googleapis.com/css?family=Stalinist+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -15,37 +12,95 @@
 				<h1>Indonesian Flagfootball Association</h1>
 			</div>
 			<div class="right col-3">
-				<h2>
-					<img src="./img/justiffa.png" alt="">
+				<h2 class="picture">
+					<img id="iffa" src="./img/justiffa.png" alt="">
 				</h2>
 			</div>
 		</div>
 
 	</div>
-	<div class="row" >
-		<div class="container">
-			<div class="menu col-3" >
-				 <ul>
-					<li>jakarta</li>
-					<li>bandund</li>
-					<li>surabaya</li>
-				 </ul>
-			</div>
-			<div class="col-9" style="border:solid 1px red">
+	<div class="body">
+		<div class="row">
+			<div class="container">
+				<div class="menu col-3">
+					<div class="row">
+						<div class="col-12">
+							<button id="cities" class="button show">
+								<span id="city">watch your cities!</span>
+							</button>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<ul>
+							<li  hidden id="div1">jakarta</li>
+							<ul>
+								<li hidden class="own" >ini punya jakarta</li>
+								<li hidden class="own" >ini punya jakarta</li>
+								<li hidden class="own" >ini punya jakarta</li>
+							</ul>
+							<li hidden id="div2">bandung</li>
+							<ul>
+								<li hidden class="own2" >ini punya bandung</li>
+								<li hidden class="own2" >ini punya bandung</li>
+								<li hidden class="own2" >ini punya bandung</li>
+							</ul>
+							<li hidden id="div3">surabaya</li>
+							<ul>
+								<li hidden class="own3" >ini punya surabaya</li>
+								<li hidden class="own3" >ini punya surabaya</li>
+								<li hidden class="own3" >ini punya surabaya</li>
+							</ul>
+						</ul>
+					</div>
+					<div>
+		
+					</div>
+				</div>
+				<div id="lorem" class="col-9">
 					<h1>what is flagfootball?</h1>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+						dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+						book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+						It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+						with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="flex-container">
+					<div class="pictures" >
+						<img class="fotos" src="./img/foto1.jpg">
+					</div>
+					<div class="pictures" >
+						<img class="fotos" src="./img/foto3.jpg">
+					</div>
+					<div class="pictures" >
+						<img class="fotos" src="./img/foto2.jpg">
+					</div>
+					<div class="pictures" >
+						<img class="fotos" src="./img/foto1.jpg">
+					</div>
+					<div class="pictures">
+						<img class="fotos" src="./img/foto3.jpg">
+					</div>
+				</div>
+			</div>
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-6" style="border:solid 1px blue">
-			<h1>ini baru</h1>
+	<div class="footer">
+		<div class="row">
+			<div class="col5">
+				<a href="http://instagram.com/iffa" target="_blank">
+				<img id="insta" src="./img/insta.png">
+			</a>
+			</div>
 		</div>
-		<div class="col-6" style="border:solid 1px red">
-			<h1>ini juga</h1>
-		</div>
-
 	</div>
+	
+	<script src="action.js"></script>
 </body>
 
 <footer>
