@@ -30,8 +30,8 @@
 
 .body{
     background-color: rgb(79, 72, 72) 
+   
 }
-
 
 
 img {
@@ -181,33 +181,9 @@ p{
   transition: 0.5s;
 }
 
-.button span .pics {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span .pics:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 1s;
-}
 
 .fotos{
     width: 200px;
-}
-
-.button:hover span .pics {
-  padding-right: 10px;
-}
-
-.button:hover span .pics:after {
-  opacity: 1;
-  right: 0;
 }
 
 .button span:after {
@@ -215,12 +191,12 @@ p{
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -30px;
+  right: -20px;
   transition: 2s;
 }
 
 .button:hover span {
-  padding-right: 5px;
+  padding-right: 25px;
 }
 
 .button:hover span:after {
