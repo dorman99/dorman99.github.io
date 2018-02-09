@@ -13,10 +13,13 @@
 }
 
 .header {
-
 		background-color: #800000;
     border: 1px solid red;
     padding: 15px;
+}
+
+h2 img{
+	width: 50%;
 }
 .menu {
     width: 25%;
@@ -27,6 +30,21 @@
     width: 75%;
     float: right;
 		border: 1px solid red;
+}
+
+
+.right {
+    position: absolute;
+    right: 20px;
+    width: 100px;
+
+}
+.left {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }
 
 p{
