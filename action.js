@@ -1,9 +1,25 @@
+var count = 0
+
 $("#cities").click(function () {
-    $("#div1").fadeIn("slow");
-    $("#div2").fadeIn("slow");
-    $("#div3").fadeIn("slow");
-    $("#city").html("there you go!")
+    if  (!count) {
+
+        $("#div1").fadeIn("slow");
+        $("#div2").fadeIn("slow");
+        $("#div3").fadeIn("slow");
+        $("#city").html("there you go!")
+        count = 1
+    } else  {
+               
+            $("#div1").fadeOut("slow");
+            $("#div2").fadeOut("slow");
+            $("#div3").fadeOut("slow");
+            $("#city").html("watch your cities")
+            count = 0
+        
+
+    }
 });
+
 
 $("#cities.button").click(function(){
     $(".own").slideUp("fast")
